@@ -123,6 +123,10 @@ main section p{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+        width: 100%; /* Adjust as needed */
+        max-width: 1200px; /* Set a maximum width if desired */
+        margin: 0 auto; /* Center the container horizontally */
+        overflow: hidden;
   }
   
   .photos {
@@ -135,6 +139,7 @@ main section p{
     margin-top: -15rem;
     font-weight: bolder;
   }
+
   
 #contact{
     background-color: black;
