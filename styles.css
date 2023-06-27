@@ -108,6 +108,7 @@ header h1{
 }
 header h1 a{
     color: #007d7b;
+    text-decoration: none;
 }
 
 main section h1{
@@ -115,6 +116,7 @@ main section h1{
     padding: 10px;
     font-size:30px;
     font-weight: bolder;
+    
 }
 main section p{
     text-align: left;
